@@ -1,0 +1,32 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="FERSA-jsp:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/FERSA_jsp_war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="FERSA-jsp/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="FERSA-jsp" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Maven: joda-time:joda-time:2.10.2" />
+          <element id="library" level="project" name="Maven: com.itextpdf:barcodes:7.1.6" />
+          <element id="library" level="project" name="Maven: com.itextpdf:font-asian:7.1.6" />
+          <element id="library" level="project" name="Maven: com.itextpdf:forms:7.1.6" />
+          <element id="library" level="project" name="Maven: com.itextpdf:hyph:7.1.6" />
+          <element id="library" level="project" name="Maven: com.itextpdf:io:7.1.6" />
+          <element id="library" level="project" name="Maven: com.itextpdf:kernel:7.1.6" />
+          <element id="library" level="project" name="Maven: com.itextpdf:layout:7.1.6" />
+          <element id="library" level="project" name="Maven: com.itextpdf:pdfa:7.1.6" />
+          <element id="library" level="project" name="Maven: com.itextpdf:sign:7.1.6" />
+          <element id="library" level="project" name="Maven: com.itextpdf:styled-xml-parser:7.1.6" />
+          <element id="library" level="project" name="Maven: com.itextpdf:svg:7.1.6" />
+          <element id="library" level="project" name="Maven: javax.mail:mail:1.5.0-b01" />
+          <element id="library" level="project" name="Maven: org.apache.commons:commons-collections4:4.3" />
+          <element id="library" level="project" name="Maven: fersa:fersa-backend:1.25" />
+          <element id="library" level="project" name="Maven: javax.servlet:jstl:1.2" />
+          <element id="library" level="project" name="Maven: org.mariadb.jdbc:mariadb-java-client:2.4.0" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
