@@ -44,6 +44,7 @@ public class ContractUpdateServlet extends HttpServlet {
                 contractSelected.getRentable().setFee(rentalFee);
                 contractSelected.setState(StateEnum.WAITING);
                 contractUpdateController.updateContract(contractSelected);
+                session.setAttribute("alertMsg", bundle.getString("mailer.success"));
                 page="/contractPanelServlet";
             }
         }
